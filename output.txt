@@ -1,0 +1,56 @@
+
+        ID NAME                                                                                                 BOARDED_ROCKET EMPLOYER            
+---------- ---------------------------------------------------------------------------------------------------- -------------- --------------------
+         1 Nadden Auguste                                                                                                    1 NAuguste            
+         3 Mike Ibe                                                                                                          1 NAuguste            
+         4 Terell Jones                                                                                                      1 NAuguste            
+        10 Terell Jones                                                                                                      2 NAuguste            
+
+
+        ID NAME                                                                                                 FUEL_AMOUNT OWNER               
+---------- ---------------------------------------------------------------------------------------------------- ----------- --------------------
+         1 StormRunner Rocket                                                                                            50 NAuguste            
+         2 AquaDrift Rocket                                                                                              40 NAuguste            
+
+
+        ID NAME                                                                                                 BOARDED_ROCKET EMPLOYER            
+---------- ---------------------------------------------------------------------------------------------------- -------------- --------------------
+         2 Nadden Auguste                                                                                                      MIbe                
+         5 Nadden Auguste                                                                                                      MIbe                
+         7 Mike Ibe                                                                                                            MIbe                
+         8 Mike Ibe                                                                                                            MIbe                
+         9 Mike Ibe                                                                                                            MIbe                
+
+
+ NET_WORTH
+----------
+       800
+
+
+USERNAME              NET_WORTH
+-------------------- ----------
+Ghost                   1000000
+NAuguste                  52000
+MIbe                      27000
+DDennis                   23102
+THill                     16000
+
+
+USERNAME             PASSWORD                                                                                              NET_WORTH ASTRONAUT_COUNT
+-------------------- ---------------------------------------------------------------------------------------------------- ---------- ---------------
+MIbe                 chocolate572                                                                                              27000               5
+NAuguste             cupcake123                                                                                                52000               4
+JSmith               wawasux                                                                                                     800               3
+MWheeler             strangerthings                                                                                             7582               2
+
+
+OWNER                ROCKET_COUNT
+-------------------- ------------
+NAuguste                        2
+MIbe                            1
+
+
+        ID     ROCKET PLANET                                                                                                   PAYOUT COMPLETION_CHANCE COMPLETIO
+---------- ---------- ---------------------------------------------------------------------------------------------------- ---------- ----------------- ---------
+         1          1 Jupiter                                                                                                     200                .6 15-JAN-30
+
