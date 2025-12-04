@@ -1,4 +1,7 @@
 -- Get all of a player’s owned astronauts
+SELECT *
+FROM employed_astronauts
+WHERE employer = "NAuguste";
 
 -- Get all of a player’s owned rockets
 Select*
@@ -6,6 +9,9 @@ FROM owned_rockets
 WHERE player_username = 'NAuguste';
 
 -- Get all of a player’s astronauts not boarded on rockets
+SELECT *
+FROM employed_astronauts
+WHERE employer = "MIbe" AND boarded_rocket = NULL;
 
 -- Get a players dollar amount
 SELECT net_worth
@@ -19,6 +25,11 @@ ORDER BY net_worth DESC
 FETCH FIRST 5 ROWS ONLY;
 
 -- Get top 5 players with the most amount of astronauts
+SELECT p.*, COUNT(a.id) as astronaut_count
+FROM players p
+JOIN employed_astronauts a ON e.employer = p.username
+GROUP BY p.username, p.password, p.net_worth
+ORDER BY COUNT(a.id) DESC
 
 -- Get top 5 players with the most amount of rockets
 SELECT owner, COUNT(*) AS rocket_count
