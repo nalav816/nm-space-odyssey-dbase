@@ -1,8 +1,8 @@
-Description
+## Description
 
 N&M Space Odyssey DBase is a database system for a space station mangement game.
 
-How to run?
+## How to run?
 
 1) Connect to a database in SQLDeveloper
 2) Run the schema script
