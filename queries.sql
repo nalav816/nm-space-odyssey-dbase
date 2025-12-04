@@ -40,4 +40,7 @@ ORDER BY rocket_count DESC
 FETCH FIRST 5 ROWS ONLY;
 
 -- Get a rocket’s active trips (must be incompleted so curr time must be less than completion_time
-
+SELECT t.*
+FROM trips t
+WHERE t.rocket = 1
+AND t.completion_time > SYSDATE;
